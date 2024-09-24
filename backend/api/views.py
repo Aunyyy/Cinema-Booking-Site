@@ -52,7 +52,7 @@ class SeatDelete(generics.DestroyAPIView):
         return Seat.objects.filter(movie=movie)
 
 def fetch_movies_store():
-    TMDB_API_KEY = "4aa48b22ffb1487c191c865c1efec02a"
+    TMDB_API_KEY = "ADD_YOUR_KEY_HERE"
     url = "https://api.themoviedb.org/3/discover/movie?api_key=" + TMDB_API_KEY + "&adult=false&language=en-US&page=1&sort_by=popularity.desc"
 
     headers = {
