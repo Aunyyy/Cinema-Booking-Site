@@ -1,0 +1,20 @@
+.movie-card {
+ width: 100%;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-family: sans-serif;
+ letter-spacing: 1px;
+ font-size: 16px;
+}
+
+img {
+ width: 75%;
+ height: auto;
+}
+
+p {
+ margin-top: 0.5rem;
+ text-align: center;
+}

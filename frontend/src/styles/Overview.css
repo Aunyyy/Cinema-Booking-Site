@@ -1,0 +1,89 @@
+.overview {
+ width: 100%;
+ height: 94vh;
+ background-color: #0a0b0d;
+ overflow-y: auto;
+ overflow-x: hidden;
+}
+
+.faded-image-container {
+ position: relative;
+ height: 60vh;
+}
+
+.image-container {
+ overflow: hidden;
+ width: 100vw;
+ height: 60vh;
+}
+
+.image-container img {
+ width: 100%;
+}
+
+.fade-out-bottom{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ background-color: white;
+ height: 20%;
+ background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(10, 11, 13, 100) 90%);
+}
+
+.fade-out-top{
+ position: absolute;
+ top: 0;
+ width: 100%;
+ background-color: white;
+ height: 20%;
+ background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(10, 11, 13, 100) 100%);
+}
+
+.movie-info {
+ width: 40%;
+ padding-left: 5vw;
+ margin-top: 0;
+ color: white;
+ font-family: sans-serif;
+ font-size: 1.2rem;
+}
+
+.movie-title {
+ width: 70%;
+ margin-top: 10px;
+ margin-bottom: 0;
+}
+
+.release-date {
+ text-align: left;
+ font-size: 1rem;
+}
+
+.poster-button-container {
+ margin-top: 2rem;
+ padding-left: 5vw;
+ padding-bottom: 5vh;
+ display: flex;
+ gap: 2rem;
+}
+
+.movie-poster {
+ width: 20%;
+ height: auto;
+}
+
+.tickets-button {
+ height: 5vh;
+ width: 10vw;
+ background-color: #1985ff;
+ cursor: pointer;
+ border-radius: 5px;
+ border: none;
+ color: white;
+ transition: background-color 0.2s ease-in-out;
+}
+
+.tickets-button:hover {
+ background-color: #0056b3;
+ /* #155a9b */
+}

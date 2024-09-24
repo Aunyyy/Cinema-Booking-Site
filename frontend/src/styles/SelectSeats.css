@@ -1,0 +1,52 @@
+.main-container {
+  height: 94vh;
+  background-color: white;
+}
+
+.preview-container {
+  position: relative;
+  top: 10%;
+  height: auto;
+  width: 100%;
+}
+
+.selected-seats-list {
+  color: green;
+}
+
+.movie-details {
+  margin-top: 20px;
+  padding-left: 10%;
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  font-family: sans-serif;
+}
+
+.movie-details img {
+  width: 12vw;
+}
+
+.movie-details button {
+  width: 20%;
+}
+
+.movie-title {
+  margin-top: 0;
+  width: auto;
+  font-size: 10vh;
+}
+
+.screen {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 0 0 50px 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #000;
+}
